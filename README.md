@@ -16,7 +16,7 @@ To analyze intraday price fluctuations and test simple trading strategies by bac
 - **Language:** Python
 - **Libraries:** NumPy, Pandas, Matplotlib, Seaborn
 - **Platform:** Jupyter Notebook
-- **Data Source:** (Mention NSE, Yahoo Finance, or simulated data)
+- **Data Source:** The dataset used in this project was provided by the client and is not publicly available due to confidentiality agreements.
 - **Backtesting Logic:** Custom Python functions
 
 ---
@@ -33,25 +33,12 @@ To analyze intraday price fluctuations and test simple trading strategies by bac
 ---
 
 ## 📂 Folder Structure
-
-- `notebooks/`: Contains exploratory and final analysis notebooks  
-- `scripts/`: Custom functions for backtesting and metric calculation  
-- `data/`: (Optional) Sample data used for testing  
-- `images/`: Graphs used in the README or reporting  
-
----
-
-## 📈 Sample Visualizations
-
-*(Add sample graphs here like price movement, win rate distribution, etc.)*
-
+- `data_prep/`: Cleaning and preparing data for analysis  
+- `data_analysis_phase`: Custom functions for backtesting and metric calculation 
 ---
 
 ## 📌 How to Run
 
 1. Clone the repository  
-2. Set up a Python environment (install from `requirements.txt`)  
-3. Run the Jupyter notebooks to explore analysis and results
-
-```bash
-pip install -r requirements.txt
+2. Set up a Python environment
+3. Run the python scripts to explore analysis and results
